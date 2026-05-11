@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALL IN 2026 · Germany Co-Host Invite Shortlist</title>
+<style>
+  :root {
+    --orange-1: #F47B3D;
+    --orange-2: #FF6B35;
+    --blue-1: #4F89E8;
+    --blue-2: #2E5BBA;
+    --blue-3: #1A2C5C;
+    --navy: #0A1739;
+    --navy-card: #142146;
+    --navy-card-2: #1B2C5E;
+    --text: #F4F6FB;
+    --text-dim: #C2CCE3;
+    --text-muted: #8A98BD;
+    --hot: #FF6B35;
+    --strong: #F4B941;
+    --solid: #6FB1E8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif;
+    background: var(--navy);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    padding: 80px 24px 100px;
+    background:
+      radial-gradient(ellipse at top left, rgba(244, 123, 61, 0.55) 0%, transparent 50%),
+      radial-gradient(ellipse at top right, rgba(79, 137, 232, 0.35) 0%, transparent 55%),
+      linear-gradient(180deg, var(--blue-3) 0%, var(--navy) 100%);
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(120deg, transparent 0%, rgba(244, 123, 61, 0.18) 30%, transparent 60%, rgba(79, 137, 232, 0.18) 100%);
+    pointer-events: none;
+  }
+
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .pre-title {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(244, 123, 61, 0.15);
+    border: 1px solid rgba(244, 123, 61, 0.4);
+    border-radius: 999px;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--orange-1);
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-size: clamp(36px, 5vw, 56px);
+    line-height: 1.1;
+    margin: 0 0 16px;
+    font-weight: 700;
+    background: linear-gradient(110deg, #fff 0%, #FFD8B8 30%, #B8D4FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .hero-sub {
+    font-size: clamp(16px, 1.6vw, 19px);
+    max-width: 760px;
+    color: var(--text-dim);
+    margin: 0 0 32px;
+  }
+
+  .context-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    max-width: 1000px;
+    margin-top: 40px;
+  }
+
+  .context-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px 18px;
+    backdrop-filter: blur(8px);
+  }
+
+  .context-card .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--orange-1);
+    margin-bottom: 6px;
+  }
+
+  .context-card .value {
+    font-size: 15px;
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* DIPLOMATIC NOTE */
+  .diplo-note {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 0 24px;
+  }
+
+  .diplo-inner {
+    background: linear-gradient(135deg, rgba(244, 123, 61, 0.12) 0%, rgba(79, 137, 232, 0.12) 100%);
+    border: 1px solid rgba(244, 123, 61, 0.3);
+    border-radius: 16px;
+    padding: 28px 32px;
+  }
+
+  .diplo-inner h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    color: var(--orange-1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .diplo-inner p {
+    margin: 0;
+    color: var(--text-dim);
+    font-size: 15px;
+  }
+
+  /* FILTERS */
+  .filters {
+    max-width: 1200px;
+    margin: 50px auto 30px;
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .filter-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-right: 8px;
+  }
+
+  .filter-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: var(--text-dim);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+  }
+
+  .filter-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .filter-btn.active {
+    background: linear-gradient(135deg, var(--orange-1), var(--orange-2));
+    border-color: transparent;
+    color: #fff;
+  }
+
+  /* TRACKS */
+  .tracks {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 24px 80px;
+  }
+
+  .track {
+    margin-bottom: 60px;
+  }
+
+  .track-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 24px;
+    padding: 24px 28px;
+    background: linear-gradient(135deg, rgba(244, 123, 61, 0.1) 0%, rgba(46, 91, 186, 0.18) 100%);
+    border-radius: 16px;
+    border-left: 4px solid var(--orange-1);
+  }
+
+  .track-number {
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 200;
+    color: rgba(244, 123, 61, 0.7);
+    min-width: 90px;
+  }
+
+  .track-title {
+    flex: 1;
+  }
+
+  .track-title h2 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    color: var(--orange-1);
+    font-weight: 700;
+  }
+
+  .track-title p {
+    margin: 0;
+    color: var(--text-dim);
+    font-size: 15px;
+    max-width: 720px;
+  }
+
+  /* CARD GRID */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 18px;
+  }
+
+  /* CARDS */
+  details.card {
+    background: linear-gradient(160deg, var(--navy-card) 0%, var(--navy-card-2) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+  }
+
+  details.card[open] {
+    border-color: rgba(244, 123, 61, 0.4);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  details.card:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+
+  details.card summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 22px 24px;
+    user-select: none;
+  }
+
+  details.card summary::-webkit-details-marker { display: none; }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+
+  .geo-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+
+  .tier {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tier-hot {
+    background: rgba(255, 107, 53, 0.15);
+    color: var(--hot);
+    border: 1px solid rgba(255, 107, 53, 0.4);
+  }
+
+  .tier-strong {
+    background: rgba(244, 185, 65, 0.15);
+    color: var(--strong);
+    border: 1px solid rgba(244, 185, 65, 0.4);
+  }
+
+  .tier-solid {
+    background: rgba(111, 177, 232, 0.15);
+    color: var(--solid);
+    border: 1px solid rgba(111, 177, 232, 0.4);
+  }
+
+  .card-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    color: #fff;
+  }
+
+  .card-tagline {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin: 0 0 16px;
+    line-height: 1.5;
+  }
+
+  .toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .toggle-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(244, 123, 61, 0.15);
+    color: var(--orange-1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    transition: transform 0.25s ease;
+  }
+
+  details[open] .toggle-icon {
+    transform: rotate(45deg);
+  }
+
+  .card-body {
+    padding: 0 24px 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 8px;
+    padding-top: 18px;
+  }
+
+  .body-section {
+    margin-bottom: 18px;
+  }
+
+  .body-section:last-child { margin-bottom: 0; }
+
+  .body-section h4 {
+    margin: 0 0 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--orange-1);
+    font-weight: 600;
+  }
+
+  .body-section p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 16px;
+    margin: 6px 0 0;
+  }
+
+  .fact-row {
+    font-size: 13px;
+  }
+
+  .fact-row .k {
+    display: block;
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2px;
+  }
+
+  .fact-row .v {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(244, 123, 61, 0.08);
+    border: 1px solid rgba(244, 123, 61, 0.2);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-top: 10px;
+  }
+
+  .contact-row .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--orange-1), var(--orange-2));
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .contact-row .info {
+    flex: 1;
+  }
+
+  .contact-row .who {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .contact-row .role {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+  }
+
+  /* CATEGORIES (used for filtering) */
+  details.card.hidden { display: none; }
+
+  /* FOOTER */
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+
+  footer p { margin: 4px 0; }
+
+  /* LEGEND */
+  .legend {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .legend-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    .hero { padding: 60px 20px 80px; }
+    .track-header { flex-direction: column; padding: 20px; gap: 6px; }
+    .track-number { font-size: 40px; }
+    .facts { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="pre-title">Briefing · Germany Co-Host · Confidential</span>
+      <h1>ALL IN 2026 Montréal —<br>Germany's Invite Shortlist</h1>
+      <p class="hero-sub">
+        A curated list of 15 AI companies for Germany to invite as speakers and exhibitors across the five conference tracks. Each pick is mapped to a track, scored by strategic fit, and matched to a specific founder or executive to contact.
+      </p>
+
+      <div class="context-box">
+        <div class="context-card">
+          <div class="label">Event</div>
+          <div class="value">ALL IN 2026 · Montréal · Sept 2026</div>
+        </div>
+        <div class="context-card">
+          <div class="label">Germany's role</div>
+          <div class="value">Co-Host Country</div>
+        </div>
+        <div class="context-card">
+          <div class="label">Shortlist size</div>
+          <div class="value">15 companies · 5 tracks</div>
+        </div>
+        <div class="context-card">
+          <div class="label">Filter applied</div>
+          <div class="value">No 2025 ALL IN attendees</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIPLOMATIC NOTE -->
+  <div class="diplo-note">
+    <div class="diplo-inner">
+      <h3>Diplomatic backdrop · Why this matters now</h3>
+      <p>
+        In early 2026, Germany and Canada launched a <strong style="color:#fff;">Sovereign Technology Alliance</strong> on the sidelines of the Munich Security Conference to reduce strategic technology dependencies and build sovereign AI capabilities. In April 2026, Toronto-based <strong style="color:#fff;">Cohere</strong> merged with Heidelberg-based <strong style="color:#fff;">Aleph Alpha</strong> in a $20B transatlantic deal anchored by Germany's Schwarz Group — making ALL IN 2026 the natural stage to amplify this corridor. The shortlist below is built to advance that corridor and showcase the depth of European industrial AI to a Canadian audience.
+      </p>
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-filter="all">All 15</button>
+    <button class="filter-btn" data-filter="german">🇩🇪 German</button>
+    <button class="filter-btn" data-filter="european">🇪🇺 European</button>
+    <button class="filter-btn" data-filter="bigfish">🏭 Industrial Incumbents</button>
+    <button class="filter-btn" data-filter="hot">🔥 Hot picks only</button>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <span class="legend-item"><span class="legend-dot" style="background: var(--hot)"></span>🔥 Hot — must-invite, fresh story, perfect track fit</span>
+    <span class="legend-item"><span class="legend-dot" style="background: var(--strong)"></span>⭐ Strong — great fit, well-known to AI audiences</span>
+    <span class="legend-item"><span class="legend-dot" style="background: var(--solid)"></span>✓ Solid — established, lower-risk anchor</span>
+  </div>
+
+  <!-- TRACKS -->
+  <section class="tracks">
+
+    <!-- TRACK 1 -->
+    <div class="track">
+      <div class="track-header">
+        <div class="track-number">01</div>
+        <div class="track-title">
+          <h2>AI &amp; Society</h2>
+          <p>How AI is reshaping productivity, work, power, and trust — and what this means for institutions and the social contract.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+
+        <!-- DeepL -->
+        <details class="card" data-cat="german">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇩🇪 German Startup</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">DeepL</h3>
+            <p class="card-tagline">The German AI translator beating Google — now planning a $5B IPO.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>DeepL builds AI that translates between languages with quality that businesses trust. Used by over 200,000 companies including most of the Fortune 500. They recently launched real-time voice-to-voice translation in 40+ languages.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>A German champion solving a universal "work" problem — language barriers in global organizations. Demos beautifully (live two-way voice translation on stage). The diplomat-friendly story: a Cologne-based startup overtaking Silicon Valley.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Series C · pre-IPO</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">~$2B (eyeing $5B IPO)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Cologne, Germany</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2017</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">JK</div>
+              <div class="info">
+                <div class="who">Jaroslaw Kutylowski</div>
+                <div class="role">Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Synthesia -->
+        <details class="card" data-cat="european">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇬🇧 European Startup</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">Synthesia</h3>
+            <p class="card-tagline">AI avatars that train and recruit workforces — used by 70% of the FTSE 100.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Synthesia turns text into video. A user types a script and a realistic AI avatar delivers it on camera in any language. Their new "interactive avatars" hold two-way conversations — used for training, role-plays, and candidate screening.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The clearest on-stage demo of "future of work" AI. Riparbelli is a polished speaker who has thought deeply about avatar consent, deepfakes, and the social contract — perfect for an AI &amp; Society panel that needs a builder's voice.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Series E (Jan 2026)</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">$4B · $150M+ ARR</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">London, UK</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2017</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">VR</div>
+              <div class="info">
+                <div class="who">Victor Riparbelli</div>
+                <div class="role">Co-Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- SAP -->
+        <details class="card" data-cat="bigfish">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🏭 Industrial Incumbent · 🇩🇪</span>
+              <span class="tier tier-solid">✓ Solid</span>
+            </div>
+            <h3 class="card-name">SAP</h3>
+            <p class="card-tagline">Europe's largest software company — now an agentic AI platform with 40+ business AI agents.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>SAP runs the back-office software for most of the world's largest companies. Their AI assistant <strong style="color:#fff;">Joule</strong> now coordinates 40+ specialized AI agents that handle finance, supply chain, HR and IT tasks autonomously.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The "AI &amp; Society" angle: how the largest corporations rewire work when AI agents take real decisions. SAP has shifted to "AI consumption pricing" — a perfect case study in how AI is reshaping the social contract between vendor and customer.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Public · DAX 40</span></div>
+                <div class="fact-row"><span class="k">Market cap</span><span class="v">€280B+ (May 2026)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Walldorf, Germany</span></div>
+                <div class="fact-row"><span class="k">Employees</span><span class="v">~108,000</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">CK</div>
+              <div class="info">
+                <div class="who">Christian Klein</div>
+                <div class="role">CEO · likely sends Joule lead</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- TRACK 2 -->
+    <div class="track">
+      <div class="track-header">
+        <div class="track-number">02</div>
+        <div class="track-title">
+          <h2>Applied AI &amp; Enterprise Transformation</h2>
+          <p>How organizations deploy applied AI at scale to move from experimentation to impact — transforming operations and competitive advantage.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+
+        <!-- Celonis -->
+        <details class="card" data-cat="german">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇩🇪 German Startup</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Celonis</h3>
+            <p class="card-tagline">A TUM spinoff that became the global leader in "process intelligence" for AI agents.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Celonis x-rays how a company actually works — every order, every approval, every delay. Their new "AgentC" platform feeds that map to AI agents so they don't blindly automate broken processes. Named a Leader in the 2026 Gartner Magic Quadrant.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The flagship German applied-AI success story. Alex Rinke is an exceptional speaker who frames AI deployment as the central enterprise question of 2026: "agents can automate workloads, but they lack business understanding." Perfect demo on stage.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Late-stage private</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">~$13B</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Munich + New York</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2011 (TUM spinoff)</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">AR</div>
+              <div class="info">
+                <div class="who">Alex Rinke</div>
+                <div class="role">Co-Founder &amp; Co-CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Dataiku -->
+        <details class="card" data-cat="european">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇫🇷 European Startup</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">Dataiku</h3>
+            <p class="card-tagline">France's enterprise AI platform — now the "orchestration layer" for AI agents at 700+ companies.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Dataiku is a workbench where companies build, govern and deploy their AI. In March 2026 they launched the "Platform for AI Success" with three new products — including Cobuild, which builds entire AI projects from a natural-language description.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>A French unicorn that pairs perfectly with Celonis on a panel about deploying AI in regulated industries. Strong EU-sovereignty narrative, pre-IPO scale, and a CEO who speaks fluently about AI governance.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Late-stage private</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">~$3.7B</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Paris + New York</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2013</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">FD</div>
+              <div class="info">
+                <div class="who">Florian Douetteau</div>
+                <div class="role">Co-Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Siemens -->
+        <details class="card" data-cat="bigfish">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🏭 Industrial Incumbent · 🇩🇪</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Siemens</h3>
+            <p class="card-tagline">Building the world's first fully AI-driven factory with NVIDIA — starting in Erlangen, 2026.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Siemens makes the machines, software, and control systems that run factories worldwide. Their "Industrial Copilot" (built with Microsoft) and a new NVIDIA partnership are turning their Erlangen electronics plant into the global blueprint for AI-native manufacturing.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The exact German industrial-AI story Canada wants to hear. Roland Busch already gave a CES 2026 keynote on this — bringing it to Montréal makes Germany the most credible voice in the room on Track 2. Big demo potential (industrial copilot live).</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Public · DAX 40</span></div>
+                <div class="fact-row"><span class="k">Market cap</span><span class="v">€180B+ (May 2026)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Munich, Germany</span></div>
+                <div class="fact-row"><span class="k">Employees</span><span class="v">~320,000</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">RB</div>
+              <div class="info">
+                <div class="who">Roland Busch</div>
+                <div class="role">President &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- TRACK 3 -->
+    <div class="track">
+      <div class="track-header">
+        <div class="track-number">03</div>
+        <div class="track-title">
+          <h2>AI at the Frontier</h2>
+          <p>Advances at the frontier of AI research — new capabilities, limits, and breakthroughs — and what they imply for long-term strategy, risk, and opportunity.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+
+        <!-- Black Forest Labs -->
+        <details class="card" data-cat="german">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇩🇪 German Startup</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Black Forest Labs</h3>
+            <p class="card-tagline">Europe's quietly-most-valuable AI lab — and the creators of Stable Diffusion.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>They build the AI models that generate images and video — their FLUX series powers many of the visuals you've seen online over the past year. In Dec 2025 they raised $300M at a $3.25B valuation, with NVIDIA and Salesforce backing them.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>One of very few European companies operating at the absolute frontier of generative AI. Robin Rombach co-invented Stable Diffusion before founding BFL in Freiburg. Rare opportunity to put a European frontier-lab founder on the All In main stage.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Series B (Dec 2025)</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">$3.25B</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Freiburg, Germany</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2024</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">RR</div>
+              <div class="info">
+                <div class="who">Robin Rombach</div>
+                <div class="role">Co-Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- ElevenLabs -->
+        <details class="card" data-cat="european">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇬🇧 European Startup</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">ElevenLabs</h3>
+            <p class="card-tagline">The Polish-British voice AI lab making voice the next core interface for technology.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>ElevenLabs builds AI that speaks, sings, and dubs in any voice and language. Their tech powers voice agents, audiobooks, dubbing studios and call centers globally. Crossed $500M annual revenue in just the first four months of 2026.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>Mati Staniszewski is one of Europe's strongest founder-speakers. The frontier voice story plays perfectly to Canadian audiences and demos instantly — and ElevenLabs hasn't appeared at All In yet, despite their scale.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Late-stage (Feb 2026)</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">$11B · $500M+ ARR</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">London (Polish co-founders)</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2022</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">MS</div>
+              <div class="info">
+                <div class="who">Mati Staniszewski</div>
+                <div class="role">Co-Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Merck KGaA -->
+        <details class="card" data-cat="bigfish">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🏭 Industrial Incumbent · 🇩🇪</span>
+              <span class="tier tier-solid">✓ Solid</span>
+            </div>
+            <h3 class="card-name">Merck KGaA</h3>
+            <p class="card-tagline">Germany's 357-year-old science giant pushing AI to the frontier of drug discovery.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>The Darmstadt-based science company uses generative AI to design new drug molecules and materials. Their ADDISON platform combines generative AI + computer-aided drug design; partnerships with BenevolentAI (up to $594M), Iktos, and a fresh AI MoU with Siemens extend the playbook.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The diplomatic angle: a Mittelstand giant (since 1668) at the frontier of AI in life sciences. New CEO Kai Beckmann took office May 1, 2026 — ALL IN is a strong first international stage for him.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Public · DAX 40</span></div>
+                <div class="fact-row"><span class="k">Revenue</span><span class="v">€22B (2025)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Darmstadt, Germany</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">1668</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">KB</div>
+              <div class="info">
+                <div class="who">Kai Beckmann</div>
+                <div class="role">CEO (since May 2026)</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- TRACK 4 -->
+    <div class="track">
+      <div class="track-header">
+        <div class="track-number">04</div>
+        <div class="track-title">
+          <h2>AI, Data &amp; Infrastructure</h2>
+          <p>The data, compute, energy, and emerging infrastructure that determine who can build, deploy, and scale sovereign AI systems effectively.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+
+        <!-- Aleph Alpha -->
+        <details class="card" data-cat="german">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇩🇪 German Startup</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Aleph Alpha</h3>
+            <p class="card-tagline">Heidelberg's sovereign-AI flagship — now the European center of the Cohere–Aleph entity.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Aleph Alpha builds the operating layer for enterprise and government AI — their PhariaAI platform handles governance, evaluation, and on-premise deployment. After the $20B Cohere merger (April 2026), Heidelberg is now the European center of excellence for the combined transatlantic entity.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The single most diplomatically resonant pick on this list. The Cohere–Aleph merger and the Germany-Canada Sovereign Technology Alliance both make Aleph Alpha the human face of the corridor ALL IN 2026 is celebrating. Jonas Andrulis is a sharp, EU-policy-fluent founder.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Merged w/ Cohere (Apr 2026)</span></div>
+                <div class="fact-row"><span class="k">Combined val</span><span class="v">$20B</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Heidelberg, Germany</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2019</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">JA</div>
+              <div class="info">
+                <div class="who">Jonas Andrulis</div>
+                <div class="role">Founder · leads European ops</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Scaleway -->
+        <details class="card" data-cat="european">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇫🇷 European Startup</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">Scaleway</h3>
+            <p class="card-tagline">Europe's sovereign GPU cloud — picked by the European Commission for EU institutions.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Scaleway runs the EU-owned data centers that European AI companies (Mistral, H, Photoroom) train and serve their models on. Backed by Iliad Group's €3B AI investment program, they champion the AION consortium to build Europe's next AI gigafactory.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The "compute sovereignty" voice ALL IN 2026 needs. Demos in numbers (5,000+ GPUs, EU Commission selection, expansion into Germany), and pairs neatly on stage with Aleph Alpha + STACKIT as the European sovereign-AI stack.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Subsidiary of Iliad Group</span></div>
+                <div class="fact-row"><span class="k">Backing</span><span class="v">€3B AI investment program</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Paris, France</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">1999</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">DL</div>
+              <div class="info">
+                <div class="who">Damien Lucas</div>
+                <div class="role">CEO · or Xavier Niel (Iliad)</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Schwarz Group / STACKIT -->
+        <details class="card" data-cat="bigfish">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🏭 Industrial Incumbent · 🇩🇪</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Schwarz Group / STACKIT</h3>
+            <p class="card-tagline">The retail giant behind Lidl and Kaufland is quietly becoming Europe's first hyperscaler.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Schwarz Group (Lidl/Kaufland) built STACKIT — a fully European, fully sovereign cloud — and is now the technical backbone for the Cohere–Aleph Alpha entity. They anchored the $20B merger with a $600M direct investment.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>An extraordinary German diplomatic story: a family-owned retailer became the EU's answer to the US hyperscalers. Few audiences outside Germany understand this — ALL IN 2026 is the perfect venue to tell it. New CrowdStrike + STACKIT partnership (March 2026) adds the cybersecurity layer.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Private · family-owned</span></div>
+                <div class="fact-row"><span class="k">Revenue</span><span class="v">~€175B (group, 2024)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Neckarsulm, Germany</span></div>
+                <div class="fact-row"><span class="k">Data centers</span><span class="v">4 live · 5th in build</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">RG</div>
+              <div class="info">
+                <div class="who">Rolf Schumann</div>
+                <div class="role">Co-CEO Schwarz Digits</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- TRACK 5 -->
+    <div class="track">
+      <div class="track-header">
+        <div class="track-number">05</div>
+        <div class="track-title">
+          <h2>Physical AI &amp; Robotics</h2>
+          <p>How AI is entering the physical world through robotics and autonomous systems — transforming productivity, safety, and operations across the real economy.</p>
+        </div>
+      </div>
+      <div class="card-grid">
+
+        <!-- NEURA Robotics -->
+        <details class="card" data-cat="german">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇩🇪 German Startup</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">NEURA Robotics</h3>
+            <p class="card-tagline">Europe's flagship humanoid robotics company — closed Series C in March 2026.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>NEURA builds humanoid robots that can be deployed in factories, kitchens, and households. Their flagship 4NE1 robot uses an AI "brain" to learn tasks from observation. In March 2026 they launched the €17M TUM RoboGym to train fleets of humanoids on real-world data.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The most demo-able physical AI story in Europe. David Reger is a charismatic founder. Bringing a humanoid on stage in Montréal puts Germany in the same conversation as Figure and Tesla Optimus — but with a European industrial story underneath.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Series C (Mar 2026)</span></div>
+                <div class="fact-row"><span class="k">Funding</span><span class="v">€120M Series B (Jan 2025)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Metzingen, Germany</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2019</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">DR</div>
+              <div class="info">
+                <div class="who">David Reger</div>
+                <div class="role">Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Wayve -->
+        <details class="card" data-cat="european">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🇬🇧 European Startup</span>
+              <span class="tier tier-hot">🔥 Hot</span>
+            </div>
+            <h3 class="card-name">Wayve</h3>
+            <p class="card-tagline">London's "Autonomous Driving 2.0" lab — Europe's strongest answer to Tesla and Waymo.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Wayve trains one big AI model end-to-end to drive — no hand-coded rules, no high-definition maps. They're launching paid Uber rides in London and Tokyo in 2026 with safety drivers. CEO Alex Kendall coined the term "embodied AI" for what they're building.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>A frontier physical-AI story with strong UK-European positioning. Sitting Kendall next to NEURA's David Reger on a "Physical AI" stage gives Germany credibility on both wheels and legs.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Series D (Feb 2026)</span></div>
+                <div class="fact-row"><span class="k">Valuation</span><span class="v">$8.6B · $1.5B Series D</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">London, UK</span></div>
+                <div class="fact-row"><span class="k">Founded</span><span class="v">2017</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">AK</div>
+              <div class="info">
+                <div class="who">Alex Kendall</div>
+                <div class="role">Co-Founder &amp; CEO</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Bosch -->
+        <details class="card" data-cat="bigfish">
+          <summary>
+            <div class="card-top">
+              <span class="geo-chip">🏭 Industrial Incumbent · 🇩🇪</span>
+              <span class="tier tier-strong">⭐ Strong</span>
+            </div>
+            <h3 class="card-name">Bosch</h3>
+            <p class="card-tagline">Investing €2.5B in agentic AI for factories — with Microsoft and Kodiak.</p>
+            <div class="toggle-row">
+              <span>Tap to expand</span>
+              <span class="toggle-icon">+</span>
+            </div>
+          </summary>
+          <div class="card-body">
+            <div class="body-section">
+              <h4>What they do (plain language)</h4>
+              <p>Bosch is one of the world's largest engineering companies — they make car parts, appliances, power tools, and the software that runs factories. Their "Manufacturing Co-Intelligence" platform (with Microsoft) uses agentic AI to cut multi-week production planning down to days.</p>
+            </div>
+            <div class="body-section">
+              <h4>Why invite them</h4>
+              <p>The textbook example of a Mittelstand giant transforming itself with AI. 1,500+ AI patents in five years, €2.5B fresh investment, deep automotive expertise — sits beautifully next to Wayve on autonomy and next to NEURA on factory floors.</p>
+            </div>
+            <div class="body-section">
+              <h4>Quick facts</h4>
+              <div class="facts">
+                <div class="fact-row"><span class="k">Stage</span><span class="v">Private · family foundation</span></div>
+                <div class="fact-row"><span class="k">Revenue</span><span class="v">€90B+ (2024)</span></div>
+                <div class="fact-row"><span class="k">HQ</span><span class="v">Stuttgart, Germany</span></div>
+                <div class="fact-row"><span class="k">AI investment</span><span class="v">€2.5–2.9B (2025–27)</span></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="icon">SH</div>
+              <div class="info">
+                <div class="who">Stefan Hartung</div>
+                <div class="role">Chairman of the Board of Management</div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong style="color: var(--text)">Shortlist methodology.</strong> Companies were filtered for: (1) not present on the ALL IN 2025 speaker list; (2) clear fit to one of the five ALL IN 2026 tracks; (3) strong founder/executive available to speak or exhibit; (4) alignment with BMWK priorities (industrial AI, sovereignty, "AI Made in Germany"); (5) genuine demo or thought-leadership value for a Canadian audience.</p>
+    <p style="margin-top: 12px;">Prepared for the German co-host delegation · ALL IN 2026 Montréal · Briefing v1 · May 2026</p>
+  </footer>
+
+<script>
+  // Filtering
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('details.card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+
+      cards.forEach(card => {
+        if (f === 'all') {
+          card.classList.remove('hidden');
+        } else if (f === 'hot') {
+          const isHot = card.querySelector('.tier-hot');
+          card.classList.toggle('hidden', !isHot);
+        } else {
+          card.classList.toggle('hidden', card.dataset.cat !== f);
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
